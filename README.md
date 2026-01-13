@@ -1,10 +1,10 @@
 # Algorithms & Data Structures Platform
 
-## Summary
+## Overview
 
-An educational platform illustrating the implementation of fundamental computer science structures using **Python 3**. This repository serves as a practical guide for understanding the core logic behind data organization, bridging the gap between theoretical algorithmic concepts and clean code implementation.
+A dedicated repository for exploring **Algorithms and Data Structures with Python**. This project serves as a practical guide to mastering the fundamental logic behind data organization, bridging the gap between theoretical algorithmic concepts and clean code implementation.
 
-It emphasizes manual memory management simulation, algorithmic complexity analysis (Big O), and modular software architecture separating theory from execution.
+It emphasizes manual memory management simulation, algorithmic complexity analysis (Big O), and a modular software architecture that separates theory from execution.
 
 ## Features
 - **Pure Python Implementation**: Focuses on raw logic without external dependencies.
