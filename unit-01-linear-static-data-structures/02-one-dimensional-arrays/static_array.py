@@ -139,6 +139,18 @@ class StaticArray:
       raise ValueError("Index out of bounds")
     return self._data[index]
 
+  def set(self, index:int, value:Any) -> None:
+    """
+    Sets the element at a given index.
+
+    Args:
+      index: The index of the element to set.
+      value: The element to set.
+    """
+    if index < 0 or index >= self._length:
+      raise ValueError("Index out of bounds")
+    self._data[index] = value
+
   
 if __name__ == "__main__":
   # 1. Create a static array with capacity for 5 elements
