@@ -1,6 +1,19 @@
+"""
+File: static_array.py
+Purpose: Implements a static array data structure with a fixed capacity.
+Author: GonzaloQu3dena
+Date: 2026-01-14
+Version: 1.0
+
+Core concepts to explore:
+1. How to implement a static array data structure with a fixed capacity.
+2. How to add, insert, delete and get elements from the array.
+3. How to check if the array is full or empty.
+"""
+
 from typing import Any, Optional
 
-class StaticArray:
+class StaticArray:  
   """
   Represents a static array data structure with a fixed capacity.
 
