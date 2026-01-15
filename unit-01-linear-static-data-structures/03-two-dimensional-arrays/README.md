@@ -1,7 +1,7 @@
 # Two-Dimensional Arrays
 
 <p align="justify">
-A <b>two-dimensional array</b> is a static data structure (in its classic definition) organized in **rows (rows)** and **columns (cols)**. It is conceptualized as a table or grid where each element has a unique position defined by two indices `[i][j]`.
+A <b>two-dimensional array</b> is a static data structure (in its classic definition) organized in <b>rows (rows)</b> and <b>columns (cols)</b>. It is conceptualized as a table or grid where each element has a unique position defined by two indices `[i][j]`.
 </p>
 
 <img src="assets/two-dimensional-array.webp" alt="Two-Dimensional Array" width="550"/>
