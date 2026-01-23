@@ -15,8 +15,14 @@ The most important distinction in software engineering is separating the interfa
 </p>
 
 <ul>
-  <li><b>ADT (The "What"):</b> Defines the logical model and the operations available (e.g., a "List" can <i>add</i>, <i>remove</i>, and <i>get</i> elements).</li>
-  <li><b>Data Structure (The "How"):</b> The actual physical representation of the data in memory (e.g., implementing that "List" using a <i>Static Array</i> or a <i>Linked List</i>).</li>
+  <li>
+    <b>ADT (The "What"):</b><br>
+    Defines the logical model and the operations available (e.g., a "List" can <i>add</i>, <i>remove</i>, and <i>get</i> elements).
+  </li>
+  <li>
+    <b>Data Structure (The "How"):</b><br>
+    The actual physical representation of the data in memory (e.g., implementing that "List" using a <i>Static Array</i> or a <i>Linked List</i>).
+  </li>
 </ul>
 
 ## Core Pillars
