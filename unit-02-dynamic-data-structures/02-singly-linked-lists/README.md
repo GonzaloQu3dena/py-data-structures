@@ -44,6 +44,25 @@ A singly linked list is a dynamic data structure that consists of a sequence of 
   <li><b>Size:</b> The number of nodes in the list.</li>
 </ul>
 
+## Memory Management: Array vs. Linked List
+
+This is the most important difference at the software engineering level.
+
+<p align="center">
+  <img src="assets/memory-comparison.webp" alt="Memory Comparison" width="550"/>
+</p>
+
+<ul>
+  <li align="justify">
+    <b>Arrays (Static):</b><br/>
+    Require a contiguous <b>block</b> of memory. If you want to save 5 elements, the operating system must find a free space for 5 consecutive elements.
+  </li>
+  <li align="justify">
+    <b>Linked Lists (Dynamic):</b><br/>
+    Use <b>fragmented</b> memory. A node can be in memory address <code>0x001</code> and the next one in <code>0x900</code>. The <code>next</code> pointer is the bridge that joins these data islands.
+  </li>
+</ul>
+
 ### Complexity
 
 Comparative performance regarding Arrays:
