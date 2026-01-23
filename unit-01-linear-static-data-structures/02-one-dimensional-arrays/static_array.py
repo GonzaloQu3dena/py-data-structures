@@ -83,8 +83,13 @@ class StaticArray:
     """
     if self.is_empty():
       raise ValueError("Array is empty")
-    self._length -= 1
-    return self._data[self._length]
+
+    value = self._data[self._length - 1]
+    
+    self._data[self._length - 1] = None
+    self._length -= 1 
+    
+    return value
 
   def insert(self, index: int, value: Any) -> None:
     """
