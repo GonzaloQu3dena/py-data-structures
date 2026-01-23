@@ -25,9 +25,6 @@ class Node(Generic[T]):
         self.data: T = data
         self.next: Optional['Node[T]'] = None
 
-    def __repr__(self) -> str:
-        return f"Node({self.data})"
-
 class SinglyLinkedList(Generic[T]):
     """
     Dynamic data structure consisting of a sequence of nodes.
@@ -109,6 +106,10 @@ class SinglyLinkedList(Generic[T]):
             nodes.append(str(current.data))
             current = current.next
         return " -> ".join(nodes) + " -> None"
+
+    def is_empty(self) -> bool:
+        """Returns True if the list is empty, False otherwise."""
+        return self._size == 0
 
 if __name__ == "__main__":
     # 1. Instantiate the list (explicitly string-based)
