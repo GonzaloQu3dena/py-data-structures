@@ -12,7 +12,7 @@ Core concepts to explore:
 4. Linear traversal: Accessing elements by index (O(n)).
 """
 
-from typing import Generic, TypeVar, Optional, List
+from typing import Generic, TypeVar, Optional, List, Iterator
 
 T = TypeVar('T')
 
@@ -98,6 +98,13 @@ class SinglyLinkedList(Generic[T]):
         """Returns the current number of nodes in the list."""
         return self._size
 
+    def __iter__(self):
+        """Allows for-in traversal of the list."""
+        current = self._head
+        while current:
+            yield current.data
+            current = current.next
+
     def __str__(self) -> str:
         """Returns a string representation of the list."""
         nodes: List[str] = []
@@ -110,6 +117,13 @@ class SinglyLinkedList(Generic[T]):
     def is_empty(self) -> bool:
         """Returns True if the list is empty, False otherwise."""
         return self._size == 0
+
+    def __iter__(self) -> Iterator[T]:
+        """Returns an iterator over the list."""
+        current = self._head
+        while current:
+            yield current.data
+            current = current.next
 
 if __name__ == "__main__":
     # 1. Instantiate the list (explicitly string-based)
@@ -126,8 +140,8 @@ if __name__ == "__main__":
     print(f"Size: {linked_list.size()}")
 
     # 3. Access elements
-    print(f"Element at index 0: {linked_list.get(0)}")
-    print(f"Element at index 2: {linked_list.get(2)}")
+    for element in linked_list:
+        print(f"Element: {element}")
 
     # 4. Remove elements
     print(f"Removed from beginning: {linked_list.pop_front()}")
