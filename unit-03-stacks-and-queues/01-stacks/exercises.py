@@ -6,7 +6,7 @@ Date: 2026-01-23
 Version: 1.0
 """
 
-from typing import Any, List, Optional
+from typing import Any, List
 from stack import Stack
 
 def exercise_1_reverse_string(text: str) -> str:
