@@ -8,7 +8,7 @@ A <b>two-dimensional array</b> is a static data structure (in its classic defini
   <img src="assets/two-dimensional-array.webp" alt="Two-Dimensional Array" width="550"/>
 </p>
 
-## 1. Definition and Access
+## Definition and Access
 
 <p align="justify">
 While a linear array is traversed with a single loop, a matrix generally requires <b>nested loops</b>, which impacts the temporal complexity.
@@ -18,7 +18,7 @@ While a linear array is traversed with a single loop, a matrix generally require
 * **Columna (`j`)**: Índice horizontal (0 a $M-1$).
 * **Acceso**: `matriz[i][j]` es una operación $O(1)$.
 
-## 2. Square Matrices and Special Types
+## Square Matrices and Special Types
 
 <p align="justify">
 A matrix is square when the number of rows is equal to the number of columns. In this course, we focus on the following variants:
@@ -56,7 +56,7 @@ A matrix is square when the number of rows is equal to the number of columns. In
   </tbody>
 </table>
 
-## 3. Complejidad Algorítmica
+## Complexity Analysis
 
 * **Recorrido Completo**: $O(rows \times cols)$. Si es cuadrada, $O(n^2)$.
 * **Recorrido Diagonal**: $O(n)$.
