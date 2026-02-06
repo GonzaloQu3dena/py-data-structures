@@ -3,7 +3,7 @@ File: exercises.py
 Purpose: LAB: BINARY SEARCH TREE CHALLENGES
 Author: GonzaloQu3dena
 Date: 2026-02-05
-Version: 1.0
+Version: 1.1
 """
 
 from typing import Any, List, Optional

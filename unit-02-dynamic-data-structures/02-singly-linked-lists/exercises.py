@@ -1,3 +1,11 @@
+"""
+File: exercises.py
+Purpose: LAB: SINGLY LINKED LIST CHALLENGES
+Author: GonzaloQu3dena
+Date: 2026-02-05
+Version: 1.1
+"""
+
 from singly_linked_list import SinglyLinkedList
 
 def exercise_1_count_occurrences(linked_list: SinglyLinkedList, value: int) -> int:

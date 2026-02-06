@@ -1,3 +1,11 @@
+"""
+File: exercises.py
+Purpose: LAB: ONE-DIMENSIONAL ARRAY CHALLENGES
+Author: GonzaloQu3dena
+Date: 2026-02-05
+Version: 1.1
+"""
+
 from static_array import StaticArray
 
 def exercise_1_populate_fixed_array():

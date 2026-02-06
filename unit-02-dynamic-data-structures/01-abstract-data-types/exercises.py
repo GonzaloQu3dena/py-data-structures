@@ -1,3 +1,11 @@
+"""
+File: exercises.py
+Purpose: LAB: ABSTRACT DATA TYPE CHALLENGES
+Author: GonzaloQu3dena
+Date: 2026-02-05
+Version: 1.1
+"""
+
 from abstract_data_type import DataContainer, StackImplementation
 
 def exercise_1_limited_container():

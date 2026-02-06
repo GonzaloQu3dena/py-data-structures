@@ -1,3 +1,11 @@
+"""
+File: exercises.py
+Purpose: LAB: CIRCULAR LINKED LIST CHALLENGES
+Author: GonzaloQu3dena
+Date: 2026-02-05
+Version: 1.1
+"""
+
 from typing import Any, Tuple
 from circular_linked_list import CircularLinkedList
 

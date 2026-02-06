@@ -2,7 +2,7 @@
 File: exercises.py
 Purpose: LAB: GENERAL TREE CHALLENGES
 Author: GonzaloQu3dena
-Date: 2026-01-26
+Date: 2026-02-05
 Version: 1.1
 """
 

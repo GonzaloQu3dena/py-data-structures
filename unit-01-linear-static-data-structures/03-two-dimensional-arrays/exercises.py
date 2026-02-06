@@ -1,3 +1,11 @@
+"""
+File: exercises.py
+Purpose: LAB: TWO-DIMENSIONAL ARRAY CHALLENGES
+Author: GonzaloQu3dena
+Date: 2026-02-05
+Version: 1.1
+"""
+
 from two_dimensional_array import Matrix
 
 def exercise_1_create_and_fill():

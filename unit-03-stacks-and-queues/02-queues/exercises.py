@@ -2,8 +2,8 @@
 File: exercises.py
 Purpose: LAB: QUEUE CHALLENGES
 Author: GonzaloQu3dena
-Date: 2026-01-23
-Version: 1.0
+Date: 2026-02-05
+Version: 1.1
 """
 
 from typing import List
